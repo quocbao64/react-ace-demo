@@ -1,0 +1,31 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .editor-header {
+        transform: translate(calc(100% - 170px), 58px);
+        z-index: 99;
+        .ant-select {
+            width: 150px;
+        }
+    }
+    .ant-tabs {
+        margin: 20px;
+        .ant-tabs-nav {
+            width: calc(100% - 170px);
+        }
+        .ant-tabs-tab:not(.ant-tabs-tab-active) {
+            background-color: #ded8d8;
+        }
+        .ant-tabs-tabpane {
+            border: 2px solid gray;
+        }
+    }
+    .output {
+        width: calc(100% - 40px);
+        height: 700px;
+        margin: 50px 20px;
+        border: 2px solid gray;
+    }
+}
