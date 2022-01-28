@@ -33,8 +33,6 @@ function Editor(props) {
                     showLineNumbers: true,
                     tabSize: 2,
                     fontSize: 16,
-                    enableSnippets: true,
-                    showLineNumbers: true,
                 }}
             />
         </div>
